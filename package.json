@@ -1,0 +1,13 @@
+{
+  "name": "git-eoa-react",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "lib/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "~5.8.3"
+  }
+}

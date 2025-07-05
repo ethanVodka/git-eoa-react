@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "types": ["node"],
+    "paths": {
+      "@eoa/common": ["lib/common/src"],
+      "@eoa/core":   ["lib/core/src"],
+      "@eoa/utils":  ["lib/utils/src"]
+    }
+  }
+}

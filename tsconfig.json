@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "lib/common" },
+    { "path": "lib/core" },
+    { "path": "lib/utils" },
+    { "path": "apps/customer" },
+    { "path": "apps/business" }
+  ]
+}
