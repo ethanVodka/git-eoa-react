@@ -7,7 +7,21 @@
     "lib/*"
   ],
   "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0",
     "@types/node": "^24.0.10",
     "typescript": "~5.8.3"
+  },
+  "scripts": {
+    "dev:customer": "pnpm --filter @eoa/customer-app dev",
+    "dev:business": "pnpm --filter @eoa/business-app dev",
+    "build:customer": "pnpm --filter @eoa/customer-app build",
+    "build:business": "pnpm --filter @eoa/business-app build"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.2.0"
   }
 }
