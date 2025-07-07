@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { setupListeners } from "@reduxjs/toolkit/dist/query";
+import { setupListeners } from "@reduxjs/toolkit/query";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import {
     FLUSH,
@@ -23,6 +23,7 @@ import pageMessageAreaReducer from "components/messageArea/PageMessageArea/PageM
 import snackbarReducer from "components/snackbars/SnackbarSlice";
 import authReducer from "pages/auth/authSlice";
 import commonParamsSlice from "pages/auth/commonParamsSlice";
+import headerReducer from "components/layouts/headers/HeaderSlice";
 import focusSlice from "./focusSlice";
 import listenerMiddleware from "./listenerMiddleware";
 
